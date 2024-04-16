@@ -1,5 +1,6 @@
 package com.example.bankingapp.entity;
 
+import com.example.bankingapp.dto.AccountDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,4 +21,5 @@ public class Account {
     private String accountName;
     @Column
     private double balance;
+
 }
